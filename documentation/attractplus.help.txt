@@ -1,0 +1,37 @@
+Attract-Mode Plus v3.0.7 
+Copyright (c) 2013-2023 Andrew Mickelson & Radek Dutkiewicz
+Usage: attractplus [option...]
+
+ROMLIST IMPORT/BUILD OPTIONS:
+  -b, --build-romlist <emu> [emu(s)...]
+     Builds a romlist using the configuration for the specified emulator(s)
+  -i, --import-romlist <file> [emu]
+     Import romlist from the specified file. Supported formats:
+        *.lst (Mamewah/Wahcade!)
+        *.txt (Attract-Mode)
+        *.xml (Mame listxml format or HyperSpin)
+     The emulator to use for list entries can be specified as well
+  -F, --filter <rule>
+     Apply the specified filter rule when creating romlist
+  -E, --exception <exception>
+     Apply the specified filter rules exception when creating romlist
+  --full
+     Use with --build-romlist to include all possible roms [MAME only]
+  -o, --output <romlist>
+     Specify the name of the romlist to create, overwriting any existing
+
+ARTWORK SCRAPER OPTIONS:
+  -s, --scrape-art <emu> [emu(s)...]
+     Scrape missing artwork for the specified emulator(s)
+
+OTHER OPTIONS:
+  -c, --config <config_directory>
+     Specify the configuration to use
+  --logfile <log_file>
+     Write log info to the specified file
+  --loglevel (silent,info,debug)
+     Set logging level
+  --console
+     Enable script console
+  -h, --help: Show this message
+  -v, --version: Show version information

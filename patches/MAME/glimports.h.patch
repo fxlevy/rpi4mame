@@ -1,0 +1,25 @@
+--- a/3rdparty/bgfx/src/glimports.h	2023-06-27 11:49:47.000000000 -0400
++++ b/3rdparty/bgfx/src/glimports.h	2023-07-10 14:35:58.245066329 -0400
+@@ -584,14 +584,14 @@
+ GL_IMPORT_____x(true,  PFNGLBLENDFUNCIPROC,                        glBlendFunci);
+ GL_IMPORT_____x(true,  PFNGLBLENDFUNCSEPARATEIPROC,                glBlendFuncSeparatei);
+ 
+-GL_IMPORT______(true,  PFNGLDRAWBUFFERPROC,                        glDrawBuffer);
+-GL_IMPORT______(true,  PFNGLREADBUFFERPROC,                        glReadBuffer);
+-GL_IMPORT______(true,  PFNGLGENSAMPLERSPROC,                       glGenSamplers);
+-GL_IMPORT______(true,  PFNGLDELETESAMPLERSPROC,                    glDeleteSamplers);
+-GL_IMPORT______(true,  PFNGLBINDSAMPLERPROC,                       glBindSampler);
+-GL_IMPORT______(true,  PFNGLSAMPLERPARAMETERFPROC,                 glSamplerParameterf);
+-GL_IMPORT______(true,  PFNGLSAMPLERPARAMETERIPROC,                 glSamplerParameteri);
+-GL_IMPORT______(true,  PFNGLSAMPLERPARAMETERFVPROC,                glSamplerParameterfv);
++// GL_IMPORT______(true,  PFNGLDRAWBUFFERPROC,                        glDrawBuffer);
++// GL_IMPORT______(true,  PFNGLREADBUFFERPROC,                        glReadBuffer);
++// GL_IMPORT______(true,  PFNGLGENSAMPLERSPROC,                       glGenSamplers);
++// GL_IMPORT______(true,  PFNGLDELETESAMPLERSPROC,                    glDeleteSamplers);
++// GL_IMPORT______(true,  PFNGLBINDSAMPLERPROC,                       glBindSampler);
++// GL_IMPORT______(true,  PFNGLSAMPLERPARAMETERFPROC,                 glSamplerParameterf);
++// GL_IMPORT______(true,  PFNGLSAMPLERPARAMETERIPROC,                 glSamplerParameteri);
++// GL_IMPORT______(true,  PFNGLSAMPLERPARAMETERFVPROC,                glSamplerParameterfv);
+ 
+ GL_IMPORT_____x(true,  PFNGLBINDBUFFERBASEPROC,                    glBindBufferBase);
+ GL_IMPORT_____x(true,  PFNGLBINDBUFFERRANGEPROC,                   glBindBufferRange);

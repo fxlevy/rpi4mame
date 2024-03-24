@@ -1,0 +1,6 @@
+return(
+   {
+      "mame_All" : [1,false]
+      "neogeo_All" : [1,false]
+   }
+)

@@ -1,0 +1,24 @@
+#
+# Begining of mame display
+# Generated with rpi4mame Attract Mode Plus script.
+#
+display	mame
+	layout               Arcadeflow
+	romlist              mame
+	in_cycle             yes
+	in_menu              yes
+	global_filter        
+		rule                 CloneOf not_equals .*
+		rule                 Status equals good|imperfect
+		rule                 Status not_equals preliminary
+		rule                 Players contains 1|2
+		rule                 Category not_contains Electromechanical|Tabletop|Casino|Quiz|Mahjong|Computer|Microcomputer|Test|Portable|Console|Handheld|Device|Training Board|Synthesiser|Clock|Document Processors
+		rule                 Category not_equals Misc.|Quiz / Korean|Electromechanical / Reels|Casino / Cards|Casino / Reels
+		rule                 Title not_contains bootleg|prototype
+		rule                 Manufacturer not_contains bootleg
+		rule                 Year not_contains ?
+		rule                 Control not_contains keyboard|mouse
+	filter               All
+	filter               Favourites
+		rule                 Favourite equals 1
+# end of mame display

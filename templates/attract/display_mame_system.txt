@@ -1,0 +1,16 @@
+#
+# Begining of <system> display
+# Generated with rpi4mame scripts.
+#
+display	<system>
+	layout               Arcadeflow
+	romlist              mame-<system>
+	in_cycle             yes
+	in_menu              yes
+	global_filter        
+		rule                 CloneOf not_equals .*
+		rule                 Manufacturer not_contains bootleg
+	filter               All
+	filter               Favourites
+		rule                 Favourite equals 1
+# end of <system> display
